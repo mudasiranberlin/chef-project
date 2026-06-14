@@ -1,5 +1,8 @@
 # Install this first : sudo yum install -y libxcrypt-compat
 
+
+#  curl -L https://omnitruck.chef.io/install.sh | sudo bash         //install latest chef command
+
 #curl -L https://www.opscode.com/chef/install.sh | bash 
 or
 curl -L https://www.opscode.com/chef/install.sh | bash -s -- -v 11
