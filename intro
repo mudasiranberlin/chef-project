@@ -3,6 +3,18 @@
 
 #  curl -L https://omnitruck.chef.io/install.sh | sudo bash         //install latest chef command
 
+chef exec ruby -c test-cookbook/recipes/test-recipe.rb
+
+chef-client -z -o "test-cookbook::test-recipe"
+
+
+
+
+
+
+
+
+
 #curl -L https://www.opscode.com/chef/install.sh | bash 
 or
 curl -L https://www.opscode.com/chef/install.sh | bash -s -- -v 11
