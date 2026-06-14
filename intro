@@ -21,3 +21,8 @@ source 'https://supermarket.chef.io'
 cookbook 'mysql-chef_gem', '= 0.0.5'
 cookbook 'mediawiki'
 EOF
+
+
+Check the Recipe :
+
+chef exec ruby -c test-cookbook/recipes/test-recipe.rb
